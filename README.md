@@ -1,3 +1,3 @@
 # TricksAspNetCore
 
-Simple demo to avoid null checking against null Enumerable.
+Simple demo new tricks in .Net Core
