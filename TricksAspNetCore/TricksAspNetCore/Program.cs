@@ -16,6 +16,16 @@ namespace TricksAspNetCore
                 Console.WriteLine(name);
             }
 
+
+            // TIP 2 - using foreach with index
+
+            var cities = new List<string> { "Matane", "Montreal", "Quebec" };
+
+            foreach (var (city, index) in cities.WithIndex())
+            {
+                Console.WriteLine($"{city} at index {index}");            
+            }
+
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
